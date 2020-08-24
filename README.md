@@ -15,7 +15,7 @@
 
 
 
-![pic_1](./pic_1.png)
+![pic_2](./pic_2.png)
 
 
 
