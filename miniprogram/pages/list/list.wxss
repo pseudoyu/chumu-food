@@ -1,0 +1,47 @@
+/* miniprogram/pages/list/list.wxss */
+
+.box {
+  border: 1px solid #FFF;
+  margin: 20rpx 30rpx 40rpx 30rpx;
+  padding: 20rpx 30rpx 20rpx 270rpx;
+  font-size: 24rpx;
+  height: 200rpx;
+  overflow: hidden;
+  position: relative; 
+  border-radius: 13rpx;
+  box-shadow: 0 2rpx 13rpx 5rpx rgba(0, 0, 0, 0.02);
+  background: #FFFFFF;
+}
+
+.box image {
+  height: 200rpx;
+  width: 220rpx; 
+  position: absolute;
+  top: 20rpx;
+  left: 10rpx;
+  border-radius: 13rpx;
+}
+
+.box view { 
+  padding-top: 0rpx;
+}
+
+.box view text {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-bottom: 10rpx;
+  color: #888;
+  font-size: 24rpx;
+}
+.box view text.title {
+  color: rgba(29, 29, 38, 0.8);
+  font-weight: bold;
+  font-size: 28rpx;
+  padding-bottom: 16rpx;
+}
+.box view text.see {
+  color: rgba(29, 29, 38, 0.8);
+  padding-top: 10rpx;
+}

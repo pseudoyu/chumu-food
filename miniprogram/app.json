@@ -1,0 +1,48 @@
+{
+    "pages": [
+        "pages/takeout/takeout",
+        "pages/index/index",
+        "pages/user/user",
+        "pages/detail/detail",
+        "pages/chooseLib/chooseLib",
+        "pages/search/search",
+        "pages/list/list"
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#F6F6F6",
+        "navigationBarTitleText": "想想吃什么",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#5D5F64",
+        "selectedColor": "#5D5F64",
+        "borderStyle": "white",
+        "backgroundColor": "#fff",
+        "box-shadow": "0 0 6px 0",
+        "list": [
+            {
+                "pagePath": "pages/takeout/takeout",
+                "iconPath": "/images/nav/takeout.png",
+                "selectedIconPath": "/images/nav/takeout-sel.png",
+                "text": "点外卖"
+            },
+
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "/images/nav/index.png",
+                "selectedIconPath": "/images/nav/index-active.png",
+                "text": "动手做"
+            },
+    
+            {
+                "pagePath": "pages/user/user",
+                "iconPath": "/images/nav/me.png",
+                "selectedIconPath": "/images/nav/me-sel.png",
+                "text": "关于我"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}

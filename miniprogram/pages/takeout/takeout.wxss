@@ -1,0 +1,86 @@
+/* pages/takeout/takeout.wxss */
+/**index.wxss**/
+@import "../../wxss/index.wxss";
+
+.banner {
+  height: 500rpx;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50rpx;
+}
+
+.list-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0rpx 0 35rpx;
+}
+
+.list-title-line {
+  width: 21rpx;
+  height: 34rpx;
+}
+
+.list-title-text {
+  margin: 0 20rpx;
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #34373d;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120rpx;
+}
+
+.choose {
+    height: 120rpx;
+    width: 120rpx;
+    margin-top: 40rpx;
+}
+
+.guide {
+    margin-top: 40rpx;
+    color: #888;
+    font-size: 20rpx;
+    margin-bottom: 40rpx;
+}
+
+.list-style {
+    font-size: 24rpx;
+    background-color: none;
+    border: 1rpx solid #FFF;
+}
+
+.list-text {
+    font-size: 24rpx;
+}
+
+.footer {
+    margin-top: 150rpx;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-image {
+    height: 82rpx;
+    width: 120rpx;
+}
+
+.footer-text {
+    color: #888;
+    font-size: 20rpx;
+}
+
+.footer-line {
+  width: 14rpx;
+  height: 22rpx;
+}

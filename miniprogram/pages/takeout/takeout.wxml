@@ -1,0 +1,42 @@
+<!--pages/takeout/takeout.wxml-->
+<image src='/images/bg.png' class='bg'></image>
+<import src="../../wxss/dist/toptips/index.wxml" />
+<import src="../../wxss/dist/loadmore/index.wxml" />
+
+<view class="container">
+  <template is="zan-loadmore" data="{{ loading }}" />
+
+  <view class='banner'>
+    <image src='{{nowEat}}'></image>
+  </view>
+
+  <view class='list-title'>
+        <image class='list-title-line' src='/images/line-red.png'></image>
+        <view class='list-title-text'>{{dish}}</view>
+        <image class='list-title-line' src='/images/line-red.png'></image>
+    </view>
+  <view>
+    <view class="button">
+      <image class='choose' bindtap='bindClickTap' src='cloud://chumufood-a9vja.6368-chumufood-a9vja-1301761264/system/choose.png'></image>
+    </view>
+
+    <view class='list-title'>
+    <view class='list-title-text guide'>这是一个有魔力的Pizza，点一下试试吧！</view>
+    </view>
+  </view>
+      
+    
+</view>
+
+  <view class="footer">
+  <view class='footer-logo'>
+    <image src='cloud://chumufood-a9vja.6368-chumufood-a9vja-1301761264/system/logo.png' class='footer-image'></image>
+  </view>
+
+    <view class='list-title'>
+        <image class='footer-line' src='/images/line-black.png'></image>
+        <view class='list-title-text footer-text'>初沐工作室</view>
+        <image class='footer-line' src='/images/line-black.png'></image>
+    </view>
+    </view>
+
