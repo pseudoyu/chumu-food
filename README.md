@@ -21,3 +21,4 @@
 
 ## 体验二维码
 
+![logo](./about/program_qr.png)
